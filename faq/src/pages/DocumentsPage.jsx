@@ -5,7 +5,7 @@
 import { useState } from 'react'
 import StoriesRow from '../components/StoriesRow'
 import ChatItem from '../components/ChatItem'
-import DocModal from '../components/DocModal'
+import DocumentViewer from '../components/DocumentViewer'
 import { documents } from '../data/documents'
 
 export default function DocumentsPage() {
@@ -19,7 +19,14 @@ export default function DocumentsPage() {
           <ChatItem key={doc.id} doc={doc} onClick={() => setActiveDoc(doc)} />
         ))}
       </section>
-      {activeDoc && <DocModal doc={activeDoc} onClose={() => setActiveDoc(null)} />}
+      {activeDoc && (
+        <DocumentViewer 
+          title={activeDoc.title}
+          embedUrl={activeDoc.url}
+          originalUrl={activeDoc.urleditable}
+          onClose={() => setActiveDoc(null)} 
+        />
+      )}
     </>
   )
 }
