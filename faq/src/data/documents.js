@@ -42,7 +42,7 @@ export const documents = [
   },
   {
     id: 'dropping',
-    title: 'Dropping/transferring/leave of absence',
+    title: 'Dropping/ Transferring/ Leave of Absence',
     subtitle: 'View process & requirements guidlines',
     icon: 'fa-right-left',
     iconBg: 'bg-ochre/20',
@@ -56,7 +56,7 @@ export const documents = [
   },
   {
     id: 'sasd',
-    title: 'CCS coding sheet',
+    title: 'CCS Coding Sheet',
     subtitle: 'To request a coded letter from the college secretary',
     icon: 'fa-file-code',
     iconBg: 'bg-brandy/30',
