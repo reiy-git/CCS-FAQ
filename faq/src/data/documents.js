@@ -20,6 +20,7 @@ export const documents = [
     iconBg: 'bg-tiger/20',
     iconColor: 'text-tiger',
     url: 'https://feedback.pnc.edu.ph/login',
+    urleditable:'https://feedback.pnc.edu.ph/login',
     description: 'PNC Feedback Site — rate and give feedback to the ccs office.',
     time: 'now',
     unread: 0,
