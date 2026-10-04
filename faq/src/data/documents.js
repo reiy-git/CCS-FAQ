@@ -42,7 +42,7 @@ export const documents = [
   },
   {
     id: 'dropping',
-    title: 'Dropping/ Transferring/ Leave of Absence',
+    title: 'Drop/Transfer/LOA Guide',
     subtitle: 'View process & requirements guidlines',
     icon: 'fa-right-left',
     iconBg: 'bg-ochre/20',
