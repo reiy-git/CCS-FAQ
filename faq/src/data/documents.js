@@ -102,6 +102,18 @@ export const stories = [
   
 ]
 
+export const peopleDoc = {
+  title: 'People',
+  url: 'https://docs.google.com/document/d/e/2PACX-1vRpYma15u6LtyZhyf_T1fWj-lyaxJmGQa7956cTGJHkSSlMorwyuUy3KOqvgHF6VGTGnQPtql1DcLFS/pub?embedded=true',
+  urleditable: 'https://docs.google.com/document/d/1gzG6AaTgwbPhqEPblq47ac56176pSMAaNOrd4qFbuh8/edit?usp=sharing',
+}
+
+export const locationsDoc = {
+  title: 'Locations',
+  url: 'https://docs.google.com/document/d/e/2PACX-1vT3BkBODLaUNPY7pVejQ42YBVHSY5uy2PKzzr5NX_T8KClap8JBQj3VePZAXFUnTqjcvCtqPpE1Uf26/pub?embedded=true',
+  urleditable: 'https://docs.google.com/document/d/1dS740eR94jku3Ac-pJNaviAhUVLc6k_l4JOAw7P_4Yw/edit?usp=sharing',
+}
+
 /** Google Form link for the "Inquire" button (Add New slot). */
 export const inquireFormUrl = 'https://forms.gle/G2V2v7drMcdUNN2BA'
 

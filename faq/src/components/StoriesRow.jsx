@@ -8,9 +8,6 @@ import { stories, inquireFormUrl } from '../data/documents'
 export default function StoriesRow() {
   return (
     <section className="stories-row">
-      {/* Inquire — opens Google Form */}
-      
-
       {stories.map((s) => (
         <a key={s.id} href={s.url} target="_blank" rel="noopener noreferrer" className="story-item">
           <div className="story-ring">
@@ -23,13 +20,6 @@ export default function StoriesRow() {
           <span className="story-label">{s.label}</span>
         </a>
       ))}
-
-      <a href={inquireFormUrl} target="_blank" rel="noopener noreferrer" className="story-item">
-        <div className="story-avatar add-new">
-          <i className="fa-solid fa-envelope" />
-        </div>
-        <span className="story-label">Inquire</span>
-      </a>
     </section>
   )
 }

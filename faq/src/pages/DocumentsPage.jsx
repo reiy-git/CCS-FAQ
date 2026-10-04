@@ -27,6 +27,9 @@ export default function DocumentsPage() {
           onClose={() => setActiveDoc(null)} 
         />
       )}
+      <div style={{ margin: '24px 16px', padding: '16px', background: 'rgba(255, 255, 255, 0.05)', borderRadius: '12px', color: 'var(--grey)', fontSize: '12px', lineHeight: '1.5' }}>
+        <p><strong>Disclaimer:</strong> This information is subject to change. For further assistance, please ask the CCS Secretary in the CCS office directly.</p>
+      </div>
     </>
   )
 }

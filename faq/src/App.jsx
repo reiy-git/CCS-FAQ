@@ -7,6 +7,8 @@ import Header from './components/Header'
 import BottomNav from './components/BottomNav'
 import DocumentsPage from './pages/DocumentsPage'
 import AboutPage from './pages/AboutPage'
+import PeoplePage from './pages/PeoplePage'
+import LocationsPage from './pages/LocationsPage'
 import './App.css'
 
 const logoSrc = '';
@@ -19,6 +21,8 @@ export default function App() {
         <main className="app-content">
           <Routes>
             <Route path="/" element={<DocumentsPage />} />
+            <Route path="/people" element={<PeoplePage />} />
+            <Route path="/locations" element={<LocationsPage />} />
             <Route path="/about" element={<AboutPage />} />
           </Routes>
         </main>
