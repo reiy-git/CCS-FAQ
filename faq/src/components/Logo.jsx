@@ -2,7 +2,7 @@
  * Logo — drop any image into src/assets and import it here,
  * or pass a src prop. Falls back to text.
  */
-export default function Logo({ src, alt = 'Facts and Queries', size = 32 }) {
+export default function Logo({ src, alt = 'CCS Facts and Queries', size = 32 }) {
   if (src) {
     return <img src={src} alt={alt} style={{ height: size }} className="logo-img" />
   }
